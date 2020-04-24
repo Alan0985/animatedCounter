@@ -15,8 +15,6 @@ counters.forEach((counter) => {
     } else {
       counter.innerText = target;
     }
-
-    console.log(typeof target);
   };
 
   updateCount();
